@@ -1,222 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Drug Quiz</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+body {
+  font-family: sans-serif;
+  font-size: 1.1em; /* Slightly larger font */
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .quiz-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
-      width: 100%;
-      max-width: 900px;
-    }
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 900px;
+}
 
-    .quiz-left,
-    .quiz-right {
-      width: 50%;
-      box-sizing: border-box;
-    }
+.quiz-left,
+.quiz-right {
+  width: 50%;
+  box-sizing: border-box;
+}
 
-    #drugName {
-      font-size: 1.5em;
-      font-weight: bold;
-      padding-right: 20px;
-    }
+.quiz-left {
+  display: flex;
+  justify-content: center; /* ← center horizontally */
+  align-items: center;
+}
 
-    .options-container {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
+#drugName {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+}
 
-    .button {
-      padding: 12px 18px;
-      cursor: pointer;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      white-space: pre-line;
-      background-color: white;
-      transition: background-color 0.3s;
-      text-align: left;
-    }
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-    .button:hover {
-      background-color: #f0f0f0;
-    }
+.button {
+  padding: 14px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-line;
+  background-color: white;
+  transition: background-color 0.3s;
+  text-align: left;
+  font-size: 1.05em;
+}
 
-    .correct {
-      background-color: lightgreen !important;
-    }
+.button:hover {
+  background-color: #f0f0f0;
+}
 
-    .incorrect {
-      background-color: lightcoral !important;
-    }
+.correct {
+  background-color: lightgreen !important;
+}
 
-    #drugSelector {
-      margin-bottom: 30px;
-      padding: 8px;
-      font-size: 1em;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      width: 100%;
-      max-width: 900px;
-    }
+.incorrect {
+  background-color: lightcoral !important;
+}
 
-    #missed {
-      width: 100%;
-      max-width: 900px;
-      background-color: #f3f3f3;
-      border: 1px solid #ccc;
-      padding: 20px;
-      opacity: 0.5;
-      box-sizing: border-box;
-    }
+#drugSelector {
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 1.05em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 900px;
+}
 
-    #missed h2 {
-      margin-top: 0;
-    }
+#missed {
+  width: 100%;
+  max-width: 900px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  padding: 20px;
+  opacity: 0.5;
+  box-sizing: border-box;
+  font-size: 1.05em;
+}
 
-    #missedList {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
+#missed h2 {
+  margin-top: 0;
+}
 
-    .missed-btn {
-      padding: 6px 12px;
-      border: none;
-      border-radius: 4px;
-      background-color: #ddd;
-      cursor: pointer;
-      font-size: 0.95em;
-    }
+#missedList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-    .missed-btn:hover {
-      background-color: #bbb;
-    }
-  </style>
-</head>
-<body>
+.missed-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ddd;
+  cursor: pointer;
+  font-size: 1em;
+}
 
-  <div class="quiz-container">
-    <div class="quiz-left" id="drugName">Loading...</div>
-    <div class="quiz-right options-container" id="options"></div>
-  </div>
-
-  <select id="drugSelector">
-    <option disabled selected>Select a drug...</option>
-  </select>
-
-  <div id="missed">
-    <h2>Missed Drugs</h2>
-    <div id="missedList"></div>
-  </div>
-
-  <script>
-    let drugs = [];
-    let currentDrug = null;
-    let missedDrugs = new Set();
-
-    async function loadTXT() {
-      const response = await fetch('drugs.txt');
-      const text = await response.text();
-
-      const entries = text
-        .split('@')
-        .map(entry => entry.trim())
-        .filter(entry => entry.includes('~'))
-        .map(entry => {
-          const [name, info] = entry.split('~');
-          return { name: name.trim(), info: info.trim() };
-        });
-
-      drugs = entries;
-      populateDropdown();
-      nextQuestion();
-    }
-
-    function nextQuestion(specificDrug = null) {
-      currentDrug = specificDrug || drugs[Math.floor(Math.random() * drugs.length)];
-
-      const wrongOptions = drugs
-        .filter(d => d.name !== currentDrug.name)
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 3)
-        .map(d => d.info);
-
-      const allOptions = [...wrongOptions, currentDrug.info].sort(() => 0.5 - Math.random());
-
-      document.getElementById('drugName').textContent = currentDrug.name;
-      const optionsDiv = document.getElementById('options');
-      optionsDiv.innerHTML = '';
-      allOptions.forEach(info => {
-        const btn = document.createElement('button');
-        btn.textContent = info;
-        btn.className = 'button';
-        btn.onclick = () => handleAnswer(info, btn);
-        optionsDiv.appendChild(btn);
-      });
-    }
-
-    function handleAnswer(selectedInfo, button) {
-      const isCorrect = selectedInfo === currentDrug.info;
-      if (isCorrect) {
-        button.classList.add('correct');
-        setTimeout(() => {
-          nextQuestion();
-        }, 1000);
-      } else {
-        button.classList.add('incorrect');
-        missedDrugs.add(currentDrug.name);
-        updateMissed();
-      }
-    }
-
-    function updateMissed() {
-      const missedDiv = document.getElementById('missedList');
-      missedDiv.innerHTML = '';
-      Array.from(missedDrugs).sort().forEach(drugName => {
-        const btn = document.createElement('button');
-        btn.textContent = drugName;
-        btn.className = 'missed-btn';
-        btn.onclick = () => {
-          const drug = drugs.find(d => d.name === drugName);
-          if (drug) nextQuestion(drug);
-        };
-        missedDiv.appendChild(btn);
-      });
-    }
-
-    function populateDropdown() {
-      const dropdown = document.getElementById('drugSelector');
-      drugs
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .forEach(drug => {
-          const option = document.createElement('option');
-          option.value = drug.name;
-          option.textContent = drug.name;
-          dropdown.appendChild(option);
-        });
-
-      dropdown.addEventListener('change', () => {
-        const selected = dropdown.value;
-        const chosen = drugs.find(d => d.name === selected);
-        if (chosen) nextQuestion(chosen);
-      });
-    }
-
-    loadTXT();
-  </script>
-</body>
-</html>
+.missed-btn:hover {
+  background-color: #bbb;
+}
