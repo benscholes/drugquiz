@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drug Quiz</title>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    .button { padding: 10px 20px; margin: 10px; cursor: pointer; border: 1px solid #ccc; border-radius: 5px; }
+    .button:hover { background: #f0f0f0; }
+    .correct { background-color: lightgreen !important; }
+    #missed { margin-top: 30px; }
+    #missed ul { list-style-type: disc; padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Drug Quiz</h1>
+  <div>
+    <strong>Drug Name:</strong> <span id="drugName">Loading...</span>
+  </div>
+  <div id="options"></div>
+  <div id="missed">
+    <h2>Missed Drugs</h2>
+    <ul id="missedList"></ul>
+  </div>
+
+  <script>
+    let drugs = [];
+    let currentDrug = null;
+    let missedDrugs = new Set();
+
+    async function loadCSV() {
+      const response = await fetch('drugs.csv');
+      const text = await response.text();
+      const rows = text.trim().split('\n').slice(1); // Skip header
+      drugs = rows.map(row => {
+        const [name, info] = row.split(/,(.+)/); // Handles commas in info
+        return { name: name.trim(), info: info.trim() };
+      });
+      nextQuestion();
+    }
+
+    function nextQuestion() {
+      // Pick a drug
+      currentDrug = drugs[Math.floor(Math.random() * drugs.length)];
+
+      // Pick 3 wrong options
+      const wrongOptions = drugs
+        .filter(d => d.name !== currentDrug.name)
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3)
+        .map(d => d.info);
+
+      // Mix correct with wrong
+      const allOptions = [...wrongOptions, currentDrug.info].sort(() => 0.5 - Math.random());
+
+      // Render
+      document.getElementById('drugName').textContent = currentDrug.name;
+      const optionsDiv = document.getElementById('options');
+      optionsDiv.innerHTML = '';
+      allOptions.forEach(info => {
+        const btn = document.createElement('button');
+        btn.textContent = info;
+        btn.className = 'button';
+        btn.onclick = () => handleAnswer(info, btn);
+        optionsDiv.appendChild(btn);
+      });
+    }
+
+    function handleAnswer(selectedInfo, button) {
+      const isCorrect = selectedInfo === currentDrug.info;
+      if (isCorrect) {
+        button.classList.add('correct');
+        setTimeout(() => {
+          nextQuestion();
+        }, 1000);
+      } else {
+        missedDrugs.add(currentDrug.name);
+        updateMissed();
+      }
+    }
+
+    function updateMissed() {
+      const ul = document.getElementById('missedList');
+      ul.innerHTML = '';
+      Array.from(missedDrugs).sort().forEach(drug => {
+        const li = document.createElement('li');
+        li.textContent = drug;
+        ul.appendChild(li);
+      });
+    }
+
+    loadCSV();
+  </script>
+</body>
+</html>
