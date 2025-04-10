@@ -69,7 +69,8 @@ uses: hypertension
 adverse: 
 notes:@acetazolamide~Diuretic (natriuretics), carbonic anhydrase inhibitor (non antibiotic sulfa)
 uses: hypertension
-adverse: notes:@furosemide~Diuretic (natriuretics), loop (non antibiotic sulfa)
+adverse: 
+notes:@furosemide~Diuretic (natriuretics), loop (non antibiotic sulfa)
 uses: hypertension (rapid onset, acute heart failure)
 adverse: volume depletion, hypotension, hypo K, hypo Mg,hypo Ca,increase in plasma: uric acid, lipids,ototoxicity
 notes:@hydrochlorothizide~Diuretic (natriuretics), thiazide, (non antibiotic sulfa)
@@ -188,9 +189,11 @@ uses:
 adverse:
 notes:@bacitracin~Antibiotic, cell wall inhibitor, non betalactam
 uses: topical
-adverse: notes:@vancomycin~Antibiotic, cell wall inhibitor, non betalactam
+adverse: 
+notes:@vancomycin~Antibiotic, cell wall inhibitor, non betalactam
 uses: C diff, MRSA
-adverse: notes:@clarithromycin~Antibiotic , protien synthesis inhibitor (50s) , macrolide
+adverse: 
+notes:@clarithromycin~Antibiotic , protien synthesis inhibitor (50s) , macrolide
 uses:
 adverse:
 notes:@azithromycin~Antibiotic , protien synthesis inhibitor (50s)
@@ -234,7 +237,8 @@ uses: Gram - anaerobic bacteria, giardia, h pylori, intra-abdo , trichomoniasis,
 adverse: nausea, metallic taste, dizziness/vertigo, disulfiram effect
 notes:@nitrofurantoin~Antibiotic , DNA synthesis inhibitor
 uses: UTI
-adverse: notes:@polymixins~Antibiotic , Cell membrane inhibitor
+adverse: 
+notes:@polymixins~Antibiotic , Cell membrane inhibitor
 uses: gram -
 adverse: nephrotoxic (used topically or direct inject)
 notes: act like detergent on pospholipid membrane@rifampin~Antibiotic, mycobateria
@@ -371,7 +375,8 @@ uses:
 adverse:
 notes:@acetylsalicylic acid (aspirin)~Antiplatlet agreggation, NSAID, antipyretic, analgesic
 uses: low dose (81mg/d) prevent thrombosis, high dose (650mg q6h) analgesic
-adverse: notes:@clopidogrel~ADP receptor agonist
+adverse: 
+notes:@clopidogrel~ADP receptor agonist
 uses: decrease platelet agreggation, prevent thrombus formation
 adverse: bleeding, agranulocytosis
 notes:@prasugrel~ADP receptor agonist
@@ -423,28 +428,39 @@ uses: treat diabetes (high blood sugar), also hyperkalemia
 adverse: hypoglycemia (tachycardia, sweating, anxiety, headache, confusion, fatigue, coma), lipohypertrophy at injection
 notes:@insulin - aspart~Diabetes, insulin (rapid)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - glulisine~Diabetes, insulin (rapid)
+adverse: 
+notes:@insulin - glulisine~Diabetes, insulin (rapid)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - regular / toronto~Diabetes, insulin (short)
+adverse: 
+notes:@insulin - regular / toronto~Diabetes, insulin (short)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - NPH~Diabetes, insulin (intermediate)
+adverse:
+notes:@insulin - NPH~Diabetes, insulin (intermediate)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - detemir~Diabetes, insulin (long)
+adverse:
+notes:@insulin - detemir~Diabetes, insulin (long)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - glargine~Diabetes, insulin (long)
+adverse:
+notes:@insulin - glargine~Diabetes, insulin (long)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - degludec~Diabetes, insulin (long)
+adverse:
+notes:@insulin - degludec~Diabetes, insulin (long)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@insulin - icodec~Diabetes insulin (long)
+adverse:
+notes:@insulin - icodec~Diabetes insulin (long)
 uses: treat diabetes (high blood sugar), also hyperkalemia
-adverse: notes:@glicazide~Antihyperglycemic, sulfonylureas
+adverse:
+notes:@glicazide~Antihyperglycemic, sulfonylureas
 uses: diabetes
-adverse: notes:
+adverse:
+notes:
 promote insulin secretion by pancreas@glyburide~Antihyperglycemic, sulfonylureas
 uses: diabetes
-adverse: notes:@metformin~Antihyperglycemic, biguanides
+adverse:
+notes:@metformin~Antihyperglycemic, biguanides
 uses: diabetes
-adverse: notes:@rosiglitazone~Antihyperglycemic, glitazone
+adverse:
+notes:@rosiglitazone~Antihyperglycemic, glitazone
 uses:
 adverse:
 notes:@liraglutide~Antihyperglycemic, GLP-1 Agonist
@@ -455,11 +471,14 @@ uses: diabetes, weightloss
 adverse: thyroid cancer; *decreased appetite
 notes: increase effect of incretin, reduce gastric mobility@sitagliptin~Antihyperglycemic, DPP-4
 uses: diabetes
-adverse: notes:@saxagliptin~Antihyperglycemic, DPP-4
+adverse:
+notes:@saxagliptin~Antihyperglycemic, DPP-4
 uses: diabetes
-adverse: notes:@linagliptin~Antihyperglycemic, DPP-4
+adverse:
+notes:@linagliptin~Antihyperglycemic, DPP-4
 uses: diabetes
-adverse: notes:@atorvastatin~Plasma Lipid Drug, HMG-CoA inhibitors
+adverse:
+notes:@atorvastatin~Plasma Lipid Drug, HMG-CoA inhibitors
 uses: decrease plasma LDL and trigycerides
 adverse: gi disturbance, myopathies (myalgia, myositis, rhabdo)
 notes: reduce production of cholesterol in liver@rosuvastatin~Plasma Lipid Drug, HMG-CoA inhibitors
@@ -473,7 +492,8 @@ uses: decrease circulating LDL
 adverse: injection site reactions
 notes:@ezetimibe~Cholesterol absorption inhibitors
 uses: decreases cholesterol
-adverse: notes:
+adverse: 
+notes:
 blocks cholesteol absorbtion in liver@cholestyramine~Bile acid sequestrants
 uses: decreases cholesterol
 adverse: constipation (often admin with laxative)
@@ -511,11 +531,14 @@ uses:
 adverse:
 notes:@fluticasone~Glucocorticoid
 uses: allergies, sinus inflammation
-adverse: notes:@mometasone~Glucocorticoid
+adverse: 
+notes:@mometasone~Glucocorticoid
 uses: allergies, sinus inflammation
-adverse: notes:@budesonide~Glucocorticoid
+adverse: 
+notes:@budesonide~Glucocorticoid
 uses: asthma
-adverse: notes:@ibuprofen~NSAID, non selective reverisble COX(1/2) inhibitor
+adverse: 
+notes:@ibuprofen~NSAID, non selective reverisble COX(1/2) inhibitor
 uses: anaglesic, antiflammatory
 adverse: gi irritate, gastric ulcers, renal insuf (dec glom filtration, dec urine ), Na/h2o retent, inc preload, worsening heart failure, inc bp
 notes:@naproxen~NSAID, non selective reverisble COX(1/2) inhibitor
@@ -536,29 +559,37 @@ uses: painkiller (sc, im, iv, po)
 adverse: drowsiness, nausea and vomit, constipation*, miosis (pinpoint pupils)*, hypotension, pruritus (itching), respiratory depression, tolerance
 notes:@codeine~Opioid
 uses: painkiller po, cough supressant
-adverse: notes:
+adverse: 
+notes:
 converted to morphine by CYP 2D6, combined with acetomenophine and caffiene (tylenol 1-4)@meperidine~Opioid
 uses: painkiller parenteral
 adverse: can be neurotoxic, serotonin syndrome
 notes:@oxycodone~Opioid
 uses: painkiller po
-adverse: notes:
+adverse: 
+notes:
 combined with acetaminophen (percocet)@hydromorphone~Opioid
 uses: painkiller (sc, im, iv, po)
-adverse: notes:@fentanyl~Opioid
+adverse: 
+notes:@fentanyl~Opioid
 uses: painkiller (transdermal)
-adverse: notes:
+adverse: 
+notes:
 high potency (1/100 of morphine dose)@loperamide (imodium)~Opioid
 uses: antidiarrheal
-adverse: notes:
+adverse: 
+notes:
 low effect on brain@methadone~Opioid
 uses: addiction management
-adverse: notes:
+adverse: 
+notes:
 very long halflife@naloxone~Opioid antagonist
 uses: nasal spray opioid cure
-adverse: notes:@suboxone~Opioid antagonist
+adverse: 
+notes:@suboxone~Opioid antagonist
 uses: sublingual, opioid cure / management ( safer than methadone but must be in withdrawal)
-adverse: notes:
+adverse: 
+notes:
 buprenorphine + naloxone@benzocaine~local anesthetic
 uses:
 adverse:
@@ -613,10 +644,8 @@ adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi 
 notes:@dexlansoprazole~Proton Pump Inhibitor
 uses: reduce stomach acid - inhibit the gastric H+ / K+ ATPase pump
 adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi infect, decrease b12 and iron
-notes:@H Pylori Quadruple Therapy w/o bismuth~uses:
-PPI (esomeprazole), Antibiotic (amoxicillin), Antibiotic (clarithromycin), Antibiotic (metronidazole) adverse:
-7-14 days notes:@H Pylori Quadruple Therapy w. bismuth~uses:
-PPI, Tetracycline, Bismuth salts, Metronidazole adverse:
+notes:@H Pylori Quadruple Therapy w/o bismuth~PPI (esomeprazole), Antibiotic (amoxicillin), Antibiotic (clarithromycin), Antibiotic (metronidazole) adverse:
+7-14 days notes:@H Pylori Quadruple Therapy w. bismuth~PPI, Tetracycline, Bismuth salts, Metronidazole adverse:
 7-14 days notes:@bisacodyl~Laxative, stimulant
 uses: 
 adverse:
