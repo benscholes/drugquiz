@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: sans-serif;
-      font-size: 1.1em;
+      font-size: 1.2em;
       margin: 0;
       padding: 40px;
       display: flex;
@@ -17,7 +17,7 @@
     #drugSelector {
       margin-bottom: 30px;
       padding: 10px;
-      font-size: 1.05em;
+      font-size: 1em; /* leave dropdown smaller */
       border-radius: 5px;
       border: 1px solid #ccc;
       width: 100%;
@@ -25,48 +25,37 @@
     }
 
     .quiz-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
       width: 100%;
       max-width: 900px;
-    }
-
-    .quiz-left,
-    .quiz-right {
-      width: 50%;
-      box-sizing: border-box;
-    }
-
-    .quiz-left {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
+      align-items: stretch;
+      margin-bottom: 30px;
     }
 
     #drugName {
-      font-size: 1.6em;
+      font-size: 2em;
       font-weight: bold;
       text-align: center;
+      margin-bottom: 20px;
     }
 
     .options-container {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 20px;
     }
 
     .button {
-      padding: 14px 20px;
+      padding: 20px;
       cursor: pointer;
       border: 1px solid #ccc;
-      border-radius: 5px;
+      border-radius: 8px;
       white-space: pre-line;
       background-color: white;
       transition: background-color 0.3s;
       text-align: left;
-      font-size: 1.05em;
+      font-size: 1.3em;
     }
 
     .button:hover {
@@ -89,7 +78,7 @@
       padding: 20px;
       opacity: 0.5;
       box-sizing: border-box;
-      font-size: 1.05em;
+      font-size: 1.1em;
     }
 
     #missed label {
@@ -110,7 +99,7 @@
     }
 
     .missed-btn {
-      padding: 8px 14px;
+      padding: 10px 16px;
       border: none;
       border-radius: 4px;
       background-color: #ddd;
@@ -150,8 +139,8 @@
   </select>
 
   <div class="quiz-container">
-    <div class="quiz-left" id="drugName">Loading...</div>
-    <div class="quiz-right options-container" id="options"></div>
+    <div id="drugName">Loading...</div>
+    <div class="options-container" id="options"></div>
   </div>
 
   <div id="missed">
