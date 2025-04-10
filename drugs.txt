@@ -419,9 +419,9 @@ notes:@selegiline~Antidepressant / Parkinsons, MAOb inhibitor (irreversible)
 
 uses:
 adverse:
-notes:@amitriptyline~Tricyclic Antidepressants
+notes:@amitriptyline~Tricyclic Antidepressants, other analgesic
 
-uses: 
+uses: antidepressant, neuropathic pain
 adverse: narrow therapeutic index, 
 anti hist musc adren effects, dec libido
 notes:@imipramine~Tricyclic Antidepressants
@@ -802,10 +802,6 @@ notes:@pregabalin~other analgesic
 
 uses: neuropathic pain
 adverse: drowsiness, dizziness, ataxia
-notes:@amitriptyline~other analgesic
-
-uses: neuropathic pain
-adverse:
 notes:@Mg (OH)2, Al (OH)3, CaCO3~antacids
 may reduce gi absorption; Al(OH)3: constipation; Mg(OH)2: diarrhea; notes:@sucralfate~Muscosal Defenses, Protectant
 
