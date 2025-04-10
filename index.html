@@ -15,25 +15,29 @@
 
     .quiz-container {
       display: flex;
-      align-items: center;
       justify-content: center;
-      gap: 40px;
+      align-items: center;
       margin-bottom: 30px;
       width: 100%;
-      max-width: 1000px;
+      max-width: 900px;
+    }
+
+    .quiz-left,
+    .quiz-right {
+      width: 50%;
+      box-sizing: border-box;
     }
 
     #drugName {
       font-size: 1.5em;
       font-weight: bold;
-      max-width: 300px;
+      padding-right: 20px;
     }
 
     .options-container {
       display: flex;
       flex-direction: column;
       gap: 15px;
-      flex: 1;
     }
 
     .button {
@@ -66,16 +70,17 @@
       border-radius: 5px;
       border: 1px solid #ccc;
       width: 100%;
-      max-width: 1000px;
+      max-width: 900px;
     }
 
     #missed {
-      width: 95%;
-      max-width: 1000px;
+      width: 100%;
+      max-width: 900px;
       background-color: #f3f3f3;
       border: 1px solid #ccc;
       padding: 20px;
       opacity: 0.5;
+      box-sizing: border-box;
     }
 
     #missed h2 {
@@ -105,8 +110,8 @@
 <body>
 
   <div class="quiz-container">
-    <div id="drugName">Loading...</div>
-    <div class="options-container" id="options"></div>
+    <div class="quiz-left" id="drugName">Loading...</div>
+    <div class="quiz-right options-container" id="options"></div>
   </div>
 
   <select id="drugSelector">
@@ -170,7 +175,7 @@
         button.classList.add('correct');
         setTimeout(() => {
           nextQuestion();
-        }, 250);
+        }, 1000);
       } else {
         button.classList.add('incorrect');
         missedDrugs.add(currentDrug.name);
