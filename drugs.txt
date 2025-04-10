@@ -1,7 +1,7 @@
 nitroglycerin~nitrate
 
 uses: angina, heart failure, hypertension (acute)
-adverse: ortho hypotension, headache, reflex tachycardia, tachyphylaxis (tolerance)
+adverse: ortho hypotension, headache, reflex tachycardia, tachyphylaxis (tolerance)d
 notes: many routes, tmax 30s@isosorbide mononitrate~nitrate
 
 uses: angina, heart failure, hypertension (acute)
@@ -796,20 +796,17 @@ uses:
 adverse:
 notes:@gabapentin~other analgesic
 
-uses:
-adverse:
+uses: neuropathic pain
+adverse: drowsiness, dizziness, ataxia
 notes:@pregabalin~other analgesic
 
-uses:
-adverse:
+uses: neuropathic pain
+adverse: drowsiness, dizziness, ataxia
 notes:@amitriptyline~other analgesic
 
-uses:
+uses: neuropathic pain
 adverse:
 notes:@Mg (OH)2, Al (OH)3, CaCO3~antacids
-
-uses:
-adverse:
 may reduce gi absorption; Al(OH)3: constipation; Mg(OH)2: diarrhea; notes:@sucralfate~Muscosal Defenses, Protectant
 
 uses: forms thick barrier over ulcer
@@ -819,24 +816,20 @@ notes:@bismuth subsalicylate~Muscosal Defenses, Protectant
 uses: forms barrier over mucosa, bateriostatic, antisecretory, antiinflammatory
 adverse: black tongue / feces
 notes: (Pepto-Bismol)@misoprostol~Muscosal Defenses, enhancer
+diarrhea, cramps, *contraction of the uterus * notes: off label use to induce labor@cimetidine~Histamine (H2) receptor Antagonist
 
-uses: 
-adverse:
-diarrhea, cramps, *contraction of the uterus * notes:@cimetidine~Histamine (H2) receptor Antagonist
+uses: decrease the secretion of gastric acid by parietal cells, especially at night
+adverse: inhibits CYPS, gynecomastia, erectile dysfunction, reduced libido notes:@ranitidine~Histamine (H2) receptor Antagonist
 
-uses: 
-adverse:
-inhibits CYPS, gynecomastia, erectile dysfunction, reduced libido notes:@ranitidine~Histamine (H2) receptor Antagonist
-
-uses: 
-adverse:
+uses: decrease the secretion of gastric acid by parietal cells, especially at night
+adverse: fewer side effects
 few adverse effects notes:@famotidine~Histamine (H2) receptor Antagonist
 
-uses: 
+uses: decrease the secretion of gastric acid by parietal cells, especially at night
 adverse:
 notes:@nizatidine~Histamine (H2) receptor Antagonist
 
-uses: 
+uses: decrease the secretion of gastric acid by parietal cells, especially at night
 adverse:
 notes:@esomeprazole~Proton Pump Inhibitor
 
