@@ -146,7 +146,7 @@ notes: increases heart force, periph vasodilation@sulfamethoxazole~Antibiotic, f
 uses: UTI, skin abscess
 adverse: folate deficiency (pregnancy)
 notes: paba poison@sulfasalazine~Antibiotic, folate antagonist (Sulfa)
-uses: UTI, skin abscess
+uses: lower F (po), used for inflammatory bowels
 adverse: folate deficiency (pregnancy)
 notes: paba poison@trimethoprim~Antibiotic, folate antagonist (Sulfa)
 uses: UTI, skin abscess
@@ -155,32 +155,32 @@ notes: more selective for biotic dihydrofolate reductase@co-trimoxazole~Antibiot
 uses: UTI, skin abscess
 adverse: folate deficiency (pregnancy)
 notes: mixed drug, dual folate blockade@penicillin g~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, natural
-uses: 
+uses: pareneteral, syphillis
 adverse:
 notes:@penicillin v~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, natural
-uses: 
+uses: po
 adverse:
 notes:@ampicillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, broad spectrum
 uses:
 adverse:
 notes:@amoxicillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, broad spectrum
-uses: 
+uses: gram +, also gram -
 adverse:
 notes:@cloxacillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, betalactamase resistant
-uses: 
+uses: gram +
 adverse:
 notes:@methicillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, betalactamase resistant
-uses:
+uses: gram +
 adverse:
 notes:@piperacillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, extended spectrum
-uses:
+uses: gram +, also pseudonomas
 adverse:
 notes:@cefalosporins 1st - 3rd~Antibiotic, cell wall inhibitor, beta-lactam, cefalosporin
-uses:
-adverse:
+uses: gram - increases, gram + decreases
+adverse: hypersensitivity, disulfram
 notes:@cefalosporins 4th - 5th~Antibiotic, cell wall inhibitor, beta-lactam, cefalosporin
-uses:
-adverse:
+uses: add to 3rd gen with Pseudomonas & MRSA
+adverse: hypersensitivity, disulfram
 notes:@meropenem~Antibiotic, cell wall inhibitor, beta-lactam, carbapenem
 uses:
 adverse:
@@ -280,9 +280,9 @@ adverse:
 notes:@nordazepam~metabolite, benzodiazepine
 uses: 
 adverse:
-notes: long half life@flumanazil~Benzodiazepine
-uses: Antianxiety
-adverse:
+notes: long half life@flumanazil~Benzodiazepine Antagonist
+uses: benzo antidote
+adverse: can trigger seizures (rebound)
 notes:@Flunitrazepam (rohypnol)~Benzodiazepine
 uses: illicit
 adverse: fainting, anterograde amnesia, respiratory depression, bradycardia, hypotension
