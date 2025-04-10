@@ -200,7 +200,7 @@ notes: paba poison@trimethoprim~Antibiotic, folate antagonist (Sulfa)
 
 uses: UTI, skin abscess
 adverse: folate deficiency (pregnancy)
-notes: more selective for biotic dihydrofolate reductase@co-trimoxazole~Antibiotic, folate antagonist (Sulfa)
+notes: more selective for bacterial dihydrofolate reductase@co-trimoxazole~Antibiotic, folate antagonist (Sulfa)
 
 uses: UTI, skin abscess
 adverse: folate deficiency (pregnancy)
