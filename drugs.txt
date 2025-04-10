@@ -519,11 +519,11 @@ adverse: injection site reactions
 
 uses: decrease circulating LDL
 adverse: injection site reactions
-@ezetimibe~Cholesterol absorption inhibitors
+@ezetimibe~Cholesterol absorption inhibitor
 
 uses: decreases cholesterol
 notes:
-blocks cholesteol absorbtion in liver@cholestyramine~Bile acid sequestrants
+blocks cholesteol absorbtion in liver@cholestyramine~Bile acid sequestrant
 
 uses: decreases cholesterol
 adverse: constipation (often admin with laxative)
