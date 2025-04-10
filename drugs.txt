@@ -276,9 +276,9 @@ uses:
 adverse:
 notes:@chloramphenicol~Antibiotic , protien synthesis inhibitor (50s)
 
-uses:
-adverse:
-notes:@gentamycin~Antibiotic , protien synthesis inhibitor (30s)
+uses: broad spectrum, rickettsial diseases, meningitis, typhoid, fever, cholera
+adverse: agranulocytosis, grey baby syndrome
+notes: widespread use, many resistant bacteria@gentamycin~Antibiotic , protien synthesis inhibitor (30s)
 
 uses:
 adverse:
