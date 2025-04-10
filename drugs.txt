@@ -389,24 +389,24 @@ adverse:
 notes:@enoxaparin~Anticoagulant, subq
 uses:
 adverse:
-notes:@fondaparinux~Anticoagulant, subq| indirect Xa inhibitor
+notes:@fondaparinux~Anticoagulant, subq; indirect Xa inhibitor
 uses:
 adverse:
-notes:@apixaban~Anticoagulant, po| direct Xa inhibitor
+notes:@apixaban~Anticoagulant, po; direct Xa inhibitor
 uses:
 adverse:
-notes:@rivaroxaban~Anticoagulant, po| direct Xa inhibitor
+notes:@rivaroxaban~Anticoagulant, po; direct Xa inhibitor
 uses:
 adverse:
-notes:@warfarin~Anticoagulant, po| vit K antagonist
+notes:@warfarin~Anticoagulant, po; vit K antagonist
 uses:
 adverse:
 bleeding, bruising, teratogen, rat poison notes:
-monitor with PT/INR| sensitive to vit K@dabigatran~Anticoagulant, po| direct thrombin inhibitor
+monitor with PT/INR; sensitive to vit K@dabigatran~Anticoagulant, po; direct thrombin inhibitor
 uses:
 adverse:
 bleeding, bruising, dyspepsia notes:
-not sensitive to vit K| antidote idarucizumab@tissue plasminogen activator (tPA)~Thrombolytic
+not sensitive to vit K; antidote idarucizumab@tissue plasminogen activator (tPA)~Thrombolytic
 uses: myocardial infarction, pulmonary embolism, ischemic stroke
 adverse: can restart bleeding
 notes:@tenecteplase~Thrombolytic (synthetic)
@@ -414,7 +414,7 @@ uses: myocardial infarction, pulmonary embolism, ischemic stroke
 adverse: can restart bleeding
 notes:@streptokinase~Thrombolytic (bacterial)
 uses: myocardial infarction, pulmonary embolism, ischemic stroke
-adverse: can restart bleeding, immune responses (bacterial origin| so 1 time use)
+adverse: can restart bleeding, immune responses (bacterial origin; so 1 time use)
 notes:@tranexamic acid (tXA)~Antifibrinolytic
 uses: menorrhagia, hemophilia, during some surgery
 adverse: thromboembolic events, allergic skin reaction
@@ -449,10 +449,10 @@ uses:
 adverse:
 notes:@liraglutide~Antihyperglycemic, GLP-1 Agonist
 uses: diabetes, weightloss
-adverse: thyroid cancer| *decreased appetite
+adverse: thyroid cancer; *decreased appetite
 notes: increase effect of incretin, reduce gastric mobility@semaglutide~Antihyperglycemic, GLP-1 Agonist
 uses: diabetes, weightloss
-adverse: thyroid cancer| *decreased appetite
+adverse: thyroid cancer; *decreased appetite
 notes: increase effect of incretin, reduce gastric mobility@sitagliptin~Antihyperglycemic, DPP-4
 uses: diabetes
 adverse: notes:@saxagliptin~Antihyperglycemic, DPP-4
@@ -480,7 +480,7 @@ adverse: constipation (often admin with laxative)
 notes: binds to bile acids (made of cholesterol) and cand be absorbed, drags them out and they must be replaced@Levothyroxine~Hypothyroidism, synthetic T4
 uses:
 adverse:
-hyperthyroidism (fast/hot| tachy angina tremor insomnia hypertherm, gi motil, sweating) notes:
+hyperthyroidism (fast/hot; tachy angina tremor insomnia hypertherm, gi motil, sweating) notes:
 T4 is converted to T3 (active)@methimazole~Hypothyroidism
 uses:
 adverse:
@@ -498,7 +498,7 @@ notes:@bilastine~Antihistamine
 uses: moderate anti-inflammatory, nasal vasocontrict
 adverse: sedation, xerostomia
 notes:@dimenhydrinate (Gravol)~Antihistamine
-uses: moderate anti-inflammatory, nasal vasocontrict| nausea
+uses: moderate anti-inflammatory, nasal vasocontrict; nausea
 adverse: sedation, xerostomia
 notes:@cortisol / hydrocortisone~Glucocorticoid
 uses:
@@ -526,7 +526,7 @@ uses: anaglesic, antiflammatory
 adverse: gi irritate, gastric ulcers, renal insuf (dec glom filtration, dec urine ), Na/h2o retent, inc preload, worsening heart failure, inc bp
 notes:@celecoxib (Celebrex)~NSAID, selective COX 2 inhibitor
 uses: anaglesic, antiflammatory
-adverse: thrombosis, reduced renal| gi, hypertension, sulfa
+adverse: thrombosis, reduced renal; gi, hypertension, sulfa
 notes:@Acetaminophen~Antipyretic / Analgesic
 uses:
 adverse:
@@ -580,7 +580,7 @@ adverse:
 notes:@Mg (OH)2, Al (OH)3, CaCO3~antacids
 uses:
 adverse:
-may reduce gi absorption| Al(OH)3: constipation| Mg(OH)2: diarrhea| notes:@sucralfate~Muscosal Defenses, Protectant
+may reduce gi absorption; Al(OH)3: constipation; Mg(OH)2: diarrhea; notes:@sucralfate~Muscosal Defenses, Protectant
 uses: forms thick barrier over ulcer
 adverse: constipation
 notes:@bismuth subsalicylate~Muscosal Defenses, Protectant
