@@ -849,17 +849,4 @@ uses: reduce stomach acid - inhibit the gastric H+ / K+ ATPase pump
 adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi infect, decrease b12 and iron
 notes:@H Pylori Quadruple Therapy w/o bismuth~PPI (esomeprazole), Antibiotic (amoxicillin), Antibiotic (clarithromycin), Antibiotic (metronidazole) adverse:
 7-14 days notes:@H Pylori Quadruple Therapy w. bismuth~PPI, Tetracycline, Bismuth salts, Metronidazole adverse:
-7-14 days notes:@bisacodyl~Laxative, stimulant
-notes:@sennosides~Laxative, stimulant
-notes:@psyllium~Laxative, bulk-forming
-notes:@inulin~Laxative, bulk-forming
-notes:@docusate~Laxative, surfactant
-notes:@lactulose~Laxative, osmotic
-notes:@polyethylene glycol (PEG)~Laxative, osmotic
-notes:@Mg(OH)2~Laxative, osmotic
-notes:@mineral oil~Laxative, lubrification (coat the intestinal lining)
-notes:@methylnaltrexone~Laxative, anti-opioid
-notes:@naloxegol~Laxative, anti-opioid
-notes:@diphenoxylate + atropine~antidiarrheal
-notes:@Al salts~antidiarrhea
-notes:@
+7-14 days notes:@bisacodyl~Laxative, stimulant@sennosides~Laxative, stimulant@psyllium~Laxative, bulk-forming@inulin~Laxative, bulk-forming@docusate~Laxative, surfactant@lactulose~Laxative, osmotic@polyethylene glycol (PEG)~Laxative, osmotic@Mg(OH)2~Laxative, osmotic@mineral oil~Laxative, lubrification (coat the intestinal lining)@methylnaltrexone~Laxative, anti-opioid@naloxegol~Laxative, anti-opioid@diphenoxylate + atropine~antidiarrheal@Al salts~antidiarrhea@
