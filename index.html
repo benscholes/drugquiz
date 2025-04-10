@@ -104,6 +104,11 @@
       gap: 10px;
     }
 
+    .missed-btn-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+
     .missed-btn {
       padding: 8px 14px;
       border: none;
@@ -115,6 +120,26 @@
 
     .missed-btn:hover {
       background-color: #bbb;
+    }
+
+    .delete-x {
+      position: absolute;
+      top: -6px;
+      right: -6px;
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 0.75em;
+      width: 20px;
+      height: 20px;
+      display: none;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .missed-btn-wrapper:hover .delete-x {
+      display: block;
     }
   </style>
 </head>
@@ -198,6 +223,9 @@
       const missedDiv = document.getElementById('missedList');
       missedDiv.innerHTML = '';
       Array.from(missedDrugs).sort().forEach(drugName => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'missed-btn-wrapper';
+
         const btn = document.createElement('button');
         btn.textContent = drugName;
         btn.className = 'missed-btn';
@@ -205,7 +233,19 @@
           const drug = drugs.find(d => d.name === drugName);
           if (drug) nextQuestion(drug);
         };
-        missedDiv.appendChild(btn);
+
+        const x = document.createElement('button');
+        x.className = 'delete-x';
+        x.textContent = '×';
+        x.onclick = (e) => {
+          e.stopPropagation();
+          missedDrugs.delete(drugName);
+          updateMissed();
+        };
+
+        wrapper.appendChild(btn);
+        wrapper.appendChild(x);
+        missedDiv.appendChild(wrapper);
       });
     }
 
