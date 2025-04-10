@@ -13,17 +13,12 @@
       align-items: center;
     }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
     .quiz-container {
       display: flex;
-      align-items: center; /* ← vertical centering */
+      align-items: center;
       justify-content: center;
       gap: 40px;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       width: 100%;
       max-width: 1000px;
     }
@@ -64,6 +59,16 @@
       background-color: lightcoral !important;
     }
 
+    #drugSelector {
+      margin-bottom: 30px;
+      padding: 8px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 100%;
+      max-width: 1000px;
+    }
+
     #missed {
       width: 100%;
       max-width: 1000px;
@@ -77,21 +82,40 @@
       margin-top: 0;
     }
 
-    #missed ul {
-      list-style-type: disc;
-      padding-left: 20px;
+    #missedList {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .missed-btn {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #ddd;
+      cursor: pointer;
+      font-size: 0.95em;
+    }
+
+    .missed-btn:hover {
+      background-color: #bbb;
     }
   </style>
 </head>
 <body>
+
   <div class="quiz-container">
     <div id="drugName">Loading...</div>
     <div class="options-container" id="options"></div>
   </div>
 
+  <select id="drugSelector">
+    <option disabled selected>Select a drug...</option>
+  </select>
+
   <div id="missed">
     <h2>Missed Drugs</h2>
-    <ul id="missedList"></ul>
+    <div id="missedList"></div>
   </div>
 
   <script>
@@ -113,11 +137,12 @@
         });
 
       drugs = entries;
+      populateDropdown();
       nextQuestion();
     }
 
-    function nextQuestion() {
-      currentDrug = drugs[Math.floor(Math.random() * drugs.length)];
+    function nextQuestion(specificDrug = null) {
+      currentDrug = specificDrug || drugs[Math.floor(Math.random() * drugs.length)];
 
       const wrongOptions = drugs
         .filter(d => d.name !== currentDrug.name)
@@ -154,12 +179,35 @@
     }
 
     function updateMissed() {
-      const ul = document.getElementById('missedList');
-      ul.innerHTML = '';
-      Array.from(missedDrugs).sort().forEach(drug => {
-        const li = document.createElement('li');
-        li.textContent = drug;
-        ul.appendChild(li);
+      const missedDiv = document.getElementById('missedList');
+      missedDiv.innerHTML = '';
+      Array.from(missedDrugs).sort().forEach(drugName => {
+        const btn = document.createElement('button');
+        btn.textContent = drugName;
+        btn.className = 'missed-btn';
+        btn.onclick = () => {
+          const drug = drugs.find(d => d.name === drugName);
+          if (drug) nextQuestion(drug);
+        };
+        missedDiv.appendChild(btn);
+      });
+    }
+
+    function populateDropdown() {
+      const dropdown = document.getElementById('drugSelector');
+      drugs
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .forEach(drug => {
+          const option = document.createElement('option');
+          option.value = drug.name;
+          option.textContent = drug.name;
+          dropdown.appendChild(option);
+        });
+
+      dropdown.addEventListener('change', () => {
+        const selected = dropdown.value;
+        const chosen = drugs.find(d => d.name === selected);
+        if (chosen) nextQuestion(chosen);
       });
     }
 
