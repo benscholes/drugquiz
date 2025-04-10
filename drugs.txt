@@ -162,15 +162,15 @@ notes: Sacubitril (nepriysin inhib) + valsartan (ARB)@digoxin~cardiac glycoside
 
 uses: heart failure (chronic), increases force lowers rate
 adverse: arrhythmias (late after depolarizations), narrow therapeutic index (sensitive to low K), seeing yellow
-notes: antidote: digibind@dapagliflozin~SGLT-2 inhibitors
+notes: antidote: digibind@dapagliflozin~SGLT-2 inhibitor
 
 uses: diabetes, heart failure (chronic)
 adverse: fungal infections, polyuria, hypotension, euglyemic diabetic ketoacidosis
-notes:@empaglifozin~SGLT-2 inhibitors
+notes:@empaglifozin~SGLT-2 inhibitor
 
 uses: diabetes, heart failure (chronic)
 adverse: fungal infections, polyuria, hypotension, euglyemic diabetic ketoacidosis
-notes:@canaglifozin~SGLT-2 inhibitors
+notes:@canaglifozin~SGLT-2 inhibitor
 
 uses: diabetes, heart failure (chronic)
 adverse: fungal infections, polyuria, hypotension, euglyemic diabetic ketoacidosis
