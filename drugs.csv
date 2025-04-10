@@ -1,0 +1,659 @@
+nitroglycerin~nitrate
+uses: angina, heart failure, hypertension (acute)
+adverse: ortho hypotension, headache, reflex tachycardia, tachyphylaxis (tolerance)
+notes: many routes, tmax 30s@isosorbide mononitrate~nitrate
+uses: angina, heart failure, hypertension (acute)
+adverse: ortho hypotension, headache, reflex tachycardia, tachyphylaxis (tolerance)
+notes: po, tmax 1hr@bisoprolol~beta blocker (b1)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction
+notes:@metoprolol~beta blocker (b1)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction
+notes:@atenolol~beta blocker (b1)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction
+notes:@acebutolol~beta blocker (b1)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction
+notes:@propranolol~beta blocker (b1, b2)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction + bronchoconstriction, mask hypoglycemia, slight increase in periph resistance, inhibit lypolyis
+notes:@timolol~beta blocker (b1, b2)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction + bronchoconstriction, mask hypoglycemia, slight increase in periph resistance, inhibit lypolyis
+notes:@pindolol~beta blocker (b1, b2)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction + bronchoconstriction, mask hypoglycemia, slight increase in periph resistance, inhibit lypolyis
+notes:@labelalol~beta blocker (b1, b2, a1)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction + bronchoconstriction, mask hypoglycemia, slight increase in periph resistance, inhibit lypolyis
+notes: pregnancy safe@carvedilol~beta blocker (b1, b2, a1)
+uses: angina, hypertension, arrhythmias, heart failure (chronic), migraines, anxiety, hyperthyroidism
+adverse: bradycardia, risk av block, heart failure, hypotension, fatigue, nightmares, sexual dysfunction + bronchoconstriction, mask hypoglycemia, slight increase in periph resistance, inhibit lypolyis
+notes:@amlodipine~CCB, dihydropyridines
+uses: angina, hypertension
+adverse: headaches, flushing, edema in lower limbs, orthostatic hypotension
+notes:@nifedipine~CCB, dihydropyridines
+uses: angina, hypertension
+adverse: headaches, flushing, edema in lower limbs, orthostatic hypotension
+notes:@diltiazem~CCB, benzothiazepine
+uses: angina, hypertension, arrhythmias
+adverse: headaches, flushing, edema in lower limbs, orthostatic hypotension
+notes:@verapamil~CCB, phenylalkylamines
+uses: angina, hypertension, arrhythmias, antidiarrheal
+adverse: headaches, flushing, edema in lower limbs, orthostatic hypotension, constipation
+notes:@captopril~ACEi
+uses: hypertension (high bp, chronic heart failure)
+adverse: hypotension, dry cough ***, angioedema (rare), risk of hyperkalemia
+notes:@ramipril~ACEi
+uses: hypertension (high bp, chronic heart failure)
+adverse: hypotension, dry cough, angioedema (rare), risk of hyperkalemia
+notes:@perindopril~ACEi
+uses: hypertension (high bp, chronic heart failure)
+adverse: hypotension, dry cough, angioedema (rare), risk of hyperkalemia
+notes:@enalapril~ACEi
+uses: hypertension (high bp, chronic heart failure)
+adverse: hypotension, dry cough, angioedema (rare), risk of hyperkalemia
+notes:@losartan~ARB
+uses: hypertension (high bp, chronic heart failure)
+adverse: hyperkalemia, hypotension, fatigue
+notes:@irbesartan~ARB
+uses: hypertension (high bp, chronic heart failure)
+adverse: hyperkalemia, hypotension, fatigue
+notes:@valsartan~ARB
+uses: hypertension (high bp, chronic heart failure)
+adverse: hyperkalemia, hypotension, fatigue
+notes:@mannitol~Diuretic, osmotic
+uses: hypertension
+adverse: 
+notes:@acetazolamide~Diuretic (natriuretics), carbonic anhydrase inhibitor (non antibiotic sulfa)
+uses: hypertension
+adverse: notes:@furosemide~Diuretic (natriuretics), loop (non antibiotic sulfa)
+uses: hypertension (rapid onset, acute heart failure)
+adverse: volume depletion, hypotension, hypo K, hypo Mg,hypo Ca,increase in plasma: uric acid, lipids,ototoxicity
+notes:@hydrochlorothizide~Diuretic (natriuretics), thiazide, (non antibiotic sulfa)
+uses: hypertension, less excretion of Ca (kidney stone benefit)
+adverse: hypo Na, hypo K, increase in plasma: uric acid, glucose lipids
+notes:@indapamide~Diuretic (natriuretics), thiazide-like
+uses: hypertension
+adverse: hypo Na, hypo K, increase in plasma: uric acid, glucose lipids
+notes:@chlorthalidone~Diuretic (natriuretics), thiazide-like
+uses: hypertension
+adverse: hypo Na, hypo K, increase in plasma: uric acid, glucose lipids
+notes:@spironolactone~Diuretic (natriuretics), potassium sparing
+uses: hypertension
+adverse: hyperkalemia, gynocomastia, menstrual irregularities, decreased libido
+notes:@eplerenone~Diuretic (natriuretics), potassium sparing
+uses: hypertension
+adverse: hyperkalemia
+notes:@hydralazine~Vasodilator (arterial)
+uses: hypertension (emergencies)
+adverse: increase hr, retention of Na/h2o (combined with beta blockers and diuretics)
+notes:@minoxidil~Vasodilator (arterial)
+uses: hypertension (emergencies)
+adverse: increase hr, retention of Na/h2o (combined with beta blockers and diuretics)
+notes:@sodium nitroprusside~Vasoldilator (mixed venous/arterial)
+uses: hypertension (emergencies)
+adverse: orthostatic hypotension, cyanide poisoning
+notes:@prazosin~Vasodilator (Alpha 1 Antagonist)
+uses: hypertension
+adverse: orthostatic hypotension, dizziness, reflex tachycardia, Na/H2O retention, fatigue
+notes:@terazosin~Vasodilator (Alpha 1 Antagonist)
+uses: hypertension
+adverse: orthostatic hypotension, dizziness, reflex tachycardia, Na/H2O retention, fatigue
+notes:@doxazosin~Vasodilator (Alpha 1 Antagonist)
+uses: hypertension
+adverse: orthostatic hypotension, dizziness, reflex tachycardia, Na/H2O retention, fatigue
+notes:@clonidine~Vasodilators (Alpha 2 Agonist)
+uses: refractory hypertension, anxiolytic
+adverse: sedation, dry mouth, depression, orthostatic hypotension
+notes:@alpha-methyldopa~Vasodilators (Alpha 2 Agonist)
+uses: hypertension (pregnancy)
+adverse: sedation, dry mouth, orthostatic hypotension
+notes:@ivabradine~new heart failure drug
+uses: slows accelerated cardiac rhythm
+adverse: bradycardia, hypertension, afib
+notes: acts on ion channel in SA node pacemaker@ARNi~new heart failure drug
+uses: heart failure (chronic)
+adverse: hypotension, hyperkalemia, do not combine with ACEi
+notes: Sacubitril (nepriysin inhib) + valsartan (ARB)@digoxin~cardiac glycoside
+uses: heart failure (chronic), increases force lowers rate
+adverse: arrhythmias (late after depolarizations), narrow therapeutic index (sensitive to low K), seeing yellow
+notes: antidote: digibind@dapagliflozin~SGLT-2 inhibitors
+uses: diabetes, heart failure (chronic)
+adverse: fungal infections, polyuria, hypotension, euglyemic diabetic ketoacidosis
+notes:@empaglifozin~SGLT-2 inhibitors
+uses: diabetes, heart failure (chronic)
+adverse: fungal infections, polyuria, hypotension, euglyemic diabetic ketoacidosis
+notes:@canaglifozin~SGLT-2 inhibitors
+uses: diabetes, heart failure (chronic)
+adverse: fungal infections, polyuria, hypotension, euglyemic diabetic ketoacidosis
+notes:@dopamine~Neurotransmitter (cardio + vasoconstriction + renal)
+uses: acute heart failure (increase contractility and bp)
+adverse: danger: arrhythmias
+notes:@dobutamine~Beta 1 Agonist (cardio specific)
+uses: acute heart failure (increase contractility and bp)
+adverse: danger: arrhythmias
+notes:@milrinone~phosphodiesterase inhibitor
+uses: acute heart failure (increase contractility and bp)
+adverse: numerous adverse effects (increases cAMP)
+notes: increases heart force, periph vasodilation@inamrinone~phosphodiesterase inhibitor
+uses: acute heart failure (increase contractility and bp)
+adverse: numerous adverse effects (increases cAMP)
+notes: increases heart force, periph vasodilation@sulfamethoxazole~Antibiotic, folate antagonist (Sulfa)
+uses: UTI, skin abscess
+adverse: folate deficiency (pregnancy)
+notes: paba poison@sulfasalazine~Antibiotic, folate antagonist (Sulfa)
+uses: UTI, skin abscess
+adverse: folate deficiency (pregnancy)
+notes: paba poison@trimethoprim~Antibiotic, folate antagonist (Sulfa)
+uses: UTI, skin abscess
+adverse: folate deficiency (pregnancy)
+notes: more selective for biotic dihydrofolate reductase@co-trimoxazole~Antibiotic, folate antagonist (Sulfa)
+uses: UTI, skin abscess
+adverse: folate deficiency (pregnancy)
+notes: mixed drug, dual folate blockade@penicillin g~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, natural
+uses: 
+adverse:
+notes:@penicillin v~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, natural
+uses: 
+adverse:
+notes:@ampicillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, broad spectrum
+uses:
+adverse:
+notes:@amoxicillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, broad spectrum
+uses: 
+adverse:
+notes:@cloxacillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, betalactamase resistant
+uses: 
+adverse:
+notes:@methicillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, betalactamase resistant
+uses:
+adverse:
+notes:@piperacillin~Antibiotic, cell wall inhibitor, beta-lactam, penicillin, extended spectrum
+uses:
+adverse:
+notes:@cefalosporins 1st - 3rd~Antibiotic, cell wall inhibitor, beta-lactam, cefalosporin
+uses:
+adverse:
+notes:@cefalosporins 4th - 5th~Antibiotic, cell wall inhibitor, beta-lactam, cefalosporin
+uses:
+adverse:
+notes:@meropenem~Antibiotic, cell wall inhibitor, beta-lactam, carbapenem
+uses:
+adverse:
+notes:@aztreonam~Antibiotic, cell wall inhibitor, monobactam
+uses:
+adverse:
+notes:@bacitracin~Antibiotic, cell wall inhibitor, non betalactam
+uses: topical
+adverse: notes:@vancomycin~Antibiotic, cell wall inhibitor, non betalactam
+uses: C diff, MRSA
+adverse: notes:@clarithromycin~Antibiotic , protien synthesis inhibitor (50s) , macrolide
+uses:
+adverse:
+notes:@azithromycin~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@clindamycin~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@linezolid~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@chloramphenicol~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@gentamycin~Antibiotic , protien synthesis inhibitor (30s)
+uses:
+adverse:
+notes:@tobramycin~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@tetracycline~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@doxycycline~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@minocycline~Antibiotic , protien synthesis inhibitor (50s)
+uses:
+adverse:
+notes:@ciprofloxacin~Antibiotic , DNA synthesis inhibitor , fluoroquinolone
+uses:
+adverse:
+notes:@levofloxacin~Antibiotic , DNA synthesis inhibitor , fluoroquinolone
+uses:
+adverse:
+notes:@moxifloxacin~Antibiotic , DNA synthesis inhibitor , fluoroquinolone
+uses:
+adverse:
+notes:@metronidazole~Antibiotic , DNA synthesis inhibitor
+uses: Gram - anaerobic bacteria, giardia, h pylori, intra-abdo , trichomoniasis, bacterial vaginosis and aquatic protozoa
+adverse: nausea, metallic taste, dizziness/vertigo, disulfiram effect
+notes:@nitrofurantoin~Antibiotic , DNA synthesis inhibitor
+uses: UTI
+adverse: notes:@polymixins~Antibiotic , Cell membrane inhibitor
+uses: gram -
+adverse: nephrotoxic (used topically or direct inject)
+notes: act like detergent on pospholipid membrane@rifampin~Antibiotic, mycobateria
+uses: tuberculosis
+adverse:
+notes:@isoniazid~Antibiotic, mycobateria
+uses: tuberculosis
+adverse:
+notes:@ethambutol~Antibiotic, mycobateria
+uses: tuberculosis 
+adverse: 
+notes:@amphotericin~Antifungal, bind to ergosterol and form hole
+uses: 
+adverse:
+notes:@nystatin~Antifungal, bind to ergosterol and form hole
+uses: 
+adverse:
+notes:@clotrimazole~Antifungal, ergosterol synthesis inhibitor
+uses: 
+adverse:
+notes:@miconazole~Antifungal, ergosterol synthesis inhibitor
+uses: 
+adverse:
+notes:@fluconazole~Antifungal, ergosterol synthesis inhibitor
+uses:
+adverse:
+notes:@terbinafine~Antifungal, allymine
+uses: 
+adverse:
+notes:@lorazepam (ativan)~Antianxiety, Benzodiazepine
+uses:
+adverse:
+notes:@clonazepam~Benzodiazepine
+uses: Antianxiety
+adverse:
+notes:@diazepam~Benzodiazepine
+uses: Antianxiety
+adverse:
+notes:@nordazepam~metabolite, benzodiazepine
+uses: 
+adverse:
+notes: long half life@flumanazil~Benzodiazepine
+uses: Antianxiety
+adverse:
+notes:@Flunitrazepam (rohypnol)~Benzodiazepine
+uses: illicit
+adverse: fainting, anterograde amnesia, respiratory depression, bradycardia, hypotension
+notes: 10x stronger than diazepam@Gamma hydroxbutyrate (GHB)~Benzodiazepine
+uses: illicit
+adverse: fainting, anterograde amnesia, respiratory depression, bradycardia, hypotension
+notes: acts on gaba receptors but isnt a benzo@zopiclone~Antianxiety, non benzo
+uses: anxiety / insomnia
+adverse: fewer than benzos (esp coordination / memory)
+notes: still act on GABAa@zolpidem~Antianxiety, non benzo
+uses: anxiety / insomnia
+adverse: fewer than benzos (esp coordination / memory
+notes: still act on GABAa@buspirone~Antianxiety, decreases serotonin release
+uses: less sedative, fewer interactions with alcohol, less abuse than benzodiazepines, does not act very quickly
+adverse: dizziness, lightheadedness notes:@phenobarbital~Barbiturate
+uses: sedative hypnotic, death penalty, euthanasia
+adverse: lethargy, cardio / resp depression
+notes: dose needed for effect increases but LD doesnt
+induction of CYP enzymes
+super dangerous with alcohol@phenelzine~Antidepressant, MAO inhibitor (irreversible)
+uses: 
+adverse: hypertension, with merepidine malignant hyper therm
+notes:@pargyline~Antidepressant, MAO inhibitor (irreversible)
+uses: 
+adverse: hypertension, with merepidine malignant hyper therm
+notes:@moclobemide~Antidepressant, MAOa inhibitor (reversible)
+uses: 
+adverse:
+notes:@selegiline~Antidepressant / Parkinsons, MAOb inhibitor (irreversible)
+uses:
+adverse:
+notes:@amitriptyline~Tricyclic Antidepressants
+uses: 
+adverse: narrow therapeutic index, 
+anti hist musc adren effects, dec libido
+notes:@imipramine~Tricyclic Antidepressants
+uses: 
+adverse: narrow therapeutic index, 
+anti hist musc adren effects, dec libido
+notes:@fluoxetine (Prozac)~Antidepressant, SSRI
+uses: 
+adverse:
+notes:@citalopram (Celexa)~Antidepressant, SSRI
+uses: 
+adverse:
+notes:@escitalopram (Cipralex)~Antidepressant, SSRI
+uses: 
+adverse:
+notes:@paroxetine (Paxil)~Antidepressant, SSRI
+uses: 
+adverse:
+notes:@sertraline (Zoloft)~Antidepressant, SSRI
+uses: 
+adverse:
+notes:@venlafaxine (Effexor)~Antidepressant, SNRI
+uses: 
+adverse:
+notes:@duloxetine (Cymbalta)~Antidepressant, SNRI
+uses:
+adverse:
+notes:@desvenlafaxine (Pristiq)~Antidepressant, SNRI
+uses:
+adverse:
+notes:@Buproprion (Wellbutrin)~Antidepressant, NDRI
+uses:
+adverse: headache, tachycardia, tremors, agitation, suppres appetite, sleep disruption, dry mouth
+notes:@Lithium~Bipolar
+uses:
+adverse: narrow therapeutic index, nausea, thirst, polyuria, fine tremors, seizsures (high dose)
+notes:@chlorpromazine~Antipsychotic, typical
+uses:
+adverse:
+notes:@haloperidol~Antipsychotic, typical
+uses:
+adverse:
+notes:@clozapine~Antipsychotic, atypical
+uses:
+adverse:
+notes:@quetiapine~Antipsychotic, atypical
+uses:
+adverse:
+notes:@risperidone~Antipsychotic, atypical
+uses:
+adverse:
+notes:@olanzapine~Antipsychotic, atypical
+uses:
+adverse:
+notes:@aripiprazole (Abilify)~Antipsychotic, atypical
+uses:
+adverse:
+notes:@acetylsalicylic acid (aspirin)~Antiplatlet agreggation, NSAID, antipyretic, analgesic
+uses: low dose (81mg/d) prevent thrombosis, high dose (650mg q6h) analgesic
+adverse: notes:@clopidogrel~ADP receptor agonist
+uses: decrease platelet agreggation, prevent thrombus formation
+adverse: bleeding, agranulocytosis
+notes:@prasugrel~ADP receptor agonist
+uses: decrease platelet agreggation, prevent thrombus formation
+adverse: bleeding, agranulocytosis
+notes:@ticagrelor~ADP receptor agonist
+uses: decrease platelet agreggation, prevent thrombus formation
+adverse: bleeding
+notes:@heparin (ufh)~Anticoagulant, iv/subq
+uses:
+adverse:
+notes: monitor with aPTT@dalteparin~Anticoagulant, subq
+uses:
+adverse:
+notes:@enoxaparin~Anticoagulant, subq
+uses:
+adverse:
+notes:@fondaparinux~Anticoagulant, subq| indirect Xa inhibitor
+uses:
+adverse:
+notes:@apixaban~Anticoagulant, po| direct Xa inhibitor
+uses:
+adverse:
+notes:@rivaroxaban~Anticoagulant, po| direct Xa inhibitor
+uses:
+adverse:
+notes:@warfarin~Anticoagulant, po| vit K antagonist
+uses:
+adverse:
+bleeding, bruising, teratogen, rat poison notes:
+monitor with PT/INR| sensitive to vit K@dabigatran~Anticoagulant, po| direct thrombin inhibitor
+uses:
+adverse:
+bleeding, bruising, dyspepsia notes:
+not sensitive to vit K| antidote idarucizumab@tissue plasminogen activator (tPA)~Thrombolytic
+uses: myocardial infarction, pulmonary embolism, ischemic stroke
+adverse: can restart bleeding
+notes:@tenecteplase~Thrombolytic (synthetic)
+uses: myocardial infarction, pulmonary embolism, ischemic stroke
+adverse: can restart bleeding
+notes:@streptokinase~Thrombolytic (bacterial)
+uses: myocardial infarction, pulmonary embolism, ischemic stroke
+adverse: can restart bleeding, immune responses (bacterial origin| so 1 time use)
+notes:@tranexamic acid (tXA)~Antifibrinolytic
+uses: menorrhagia, hemophilia, during some surgery
+adverse: thromboembolic events, allergic skin reaction
+notes: is the only one that doesnâ€™t cause bleeding@insulin - lispro~Diabetes, insulin (rapid)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: hypoglycemia (tachycardia, sweating, anxiety, headache, confusion, fatigue, coma), lipohypertrophy at injection
+notes:@insulin - aspart~Diabetes, insulin (rapid)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - glulisine~Diabetes, insulin (rapid)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - regular / toronto~Diabetes, insulin (short)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - NPH~Diabetes, insulin (intermediate)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - detemir~Diabetes, insulin (long)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - glargine~Diabetes, insulin (long)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - degludec~Diabetes, insulin (long)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@insulin - icodec~Diabetes insulin (long)
+uses: treat diabetes (high blood sugar), also hyperkalemia
+adverse: notes:@glicazide~Antihyperglycemic, sulfonylureas
+uses: diabetes
+adverse: notes:
+promote insulin secretion by pancreas@glyburide~Antihyperglycemic, sulfonylureas
+uses: diabetes
+adverse: notes:@metformin~Antihyperglycemic, biguanides
+uses: diabetes
+adverse: notes:@rosiglitazone~Antihyperglycemic, glitazone
+uses:
+adverse:
+notes:@liraglutide~Antihyperglycemic, GLP-1 Agonist
+uses: diabetes, weightloss
+adverse: thyroid cancer| *decreased appetite
+notes: increase effect of incretin, reduce gastric mobility@semaglutide~Antihyperglycemic, GLP-1 Agonist
+uses: diabetes, weightloss
+adverse: thyroid cancer| *decreased appetite
+notes: increase effect of incretin, reduce gastric mobility@sitagliptin~Antihyperglycemic, DPP-4
+uses: diabetes
+adverse: notes:@saxagliptin~Antihyperglycemic, DPP-4
+uses: diabetes
+adverse: notes:@linagliptin~Antihyperglycemic, DPP-4
+uses: diabetes
+adverse: notes:@atorvastatin~Plasma Lipid Drug, HMG-CoA inhibitors
+uses: decrease plasma LDL and trigycerides
+adverse: gi disturbance, myopathies (myalgia, myositis, rhabdo)
+notes: reduce production of cholesterol in liver@rosuvastatin~Plasma Lipid Drug, HMG-CoA inhibitors
+uses: decrease plasma LDL and trigycerides
+adverse: gi disturbance, myopathies (myalgia, myositis, rhabdo)
+notes: reduce production of cholesterol in liver@evolocumab~PCSK9 inhibitor
+uses: decrease circulating LDL
+adverse: injection site reactions
+notes:@alirocumab~PCSK9 inhibitor
+uses: decrease circulating LDL
+adverse: injection site reactions
+notes:@ezetimibe~Cholesterol absorption inhibitors
+uses: decreases cholesterol
+adverse: notes:
+blocks cholesteol absorbtion in liver@cholestyramine~Bile acid sequestrants
+uses: decreases cholesterol
+adverse: constipation (often admin with laxative)
+notes: binds to bile acids (made of cholesterol) and cand be absorbed, drags them out and they must be replaced@Levothyroxine~Hypothyroidism, synthetic T4
+uses:
+adverse:
+hyperthyroidism (fast/hot| tachy angina tremor insomnia hypertherm, gi motil, sweating) notes:
+T4 is converted to T3 (active)@methimazole~Hypothyroidism
+uses:
+adverse:
+rash, arthralgia, hyptohyroidism, agranulocytosis (rare) notes:@propylthiouracil~Hypothyroidism
+uses:
+adverse:
+liver injury, rash, arthralgia, hyptohyroidism, agranulocytosis (rare) notes:
+also inhibits peripheral conversion of T4 to T3@diphenhydramine (Benadryl)~Antihistamine
+uses: moderate anti-inflammatory, nasal vasocontrict
+adverse: sedation, xerostomia
+notes:@desloratadine~Antihistamine
+uses: moderate anti-inflammatory, nasal vasocontrict
+adverse: sedation, xerostomia
+notes:@bilastine~Antihistamine
+uses: moderate anti-inflammatory, nasal vasocontrict
+adverse: sedation, xerostomia
+notes:@dimenhydrinate (Gravol)~Antihistamine
+uses: moderate anti-inflammatory, nasal vasocontrict| nausea
+adverse: sedation, xerostomia
+notes:@cortisol / hydrocortisone~Glucocorticoid
+uses:
+adverse:
+notes:@prednisone~Glucocorticoid, modified cortisol
+uses:
+adverse:
+notes:@betamethasone~Glucocorticoid, modified cortisol
+uses:
+adverse:
+notes:@fluticasone~Glucocorticoid
+uses: allergies, sinus inflammation
+adverse: notes:@mometasone~Glucocorticoid
+uses: allergies, sinus inflammation
+adverse: notes:@budesonide~Glucocorticoid
+uses: asthma
+adverse: notes:@ibuprofen~NSAID, non selective reverisble COX(1/2) inhibitor
+uses: anaglesic, antiflammatory
+adverse: gi irritate, gastric ulcers, renal insuf (dec glom filtration, dec urine ), Na/h2o retent, inc preload, worsening heart failure, inc bp
+notes:@naproxen~NSAID, non selective reverisble COX(1/2) inhibitor
+uses: anaglesic, antiflammatory
+adverse: gi irritate, gastric ulcers, renal insuf (dec glom filtration, dec urine ), Na/h2o retent, inc preload, worsening heart failure, inc bp
+notes:@diclofenac~NSAID, non selective reverisble COX(1/2) inhibitor
+uses: anaglesic, antiflammatory
+adverse: gi irritate, gastric ulcers, renal insuf (dec glom filtration, dec urine ), Na/h2o retent, inc preload, worsening heart failure, inc bp
+notes:@celecoxib (Celebrex)~NSAID, selective COX 2 inhibitor
+uses: anaglesic, antiflammatory
+adverse: thrombosis, reduced renal| gi, hypertension, sulfa
+notes:@Acetaminophen~Antipyretic / Analgesic
+uses:
+adverse:
+hepatotoxicity (treat with NAC < 10hrs) notes:
+no anti-infalmmatory or antiplatet effect, no reyes, no gi issues@morphine~Opioid
+uses: painkiller (sc, im, iv, po)
+adverse: drowsiness, nausea and vomit, constipation*, miosis (pinpoint pupils)*, hypotension, pruritus (itching), respiratory depression, tolerance
+notes:@codeine~Opioid
+uses: painkiller po, cough supressant
+adverse: notes:
+converted to morphine by CYP 2D6, combined with acetomenophine and caffiene (tylenol 1-4)@meperidine~Opioid
+uses: painkiller parenteral
+adverse: can be neurotoxic, serotonin syndrome
+notes:@oxycodone~Opioid
+uses: painkiller po
+adverse: notes:
+combined with acetaminophen (percocet)@hydromorphone~Opioid
+uses: painkiller (sc, im, iv, po)
+adverse: notes:@fentanyl~Opioid
+uses: painkiller (transdermal)
+adverse: notes:
+high potency (1/100 of morphine dose)@loperamide (imodium)~Opioid
+uses: antidiarrheal
+adverse: notes:
+low effect on brain@methadone~Opioid
+uses: addiction management
+adverse: notes:
+very long halflife@naloxone~Opioid antagonist
+uses: nasal spray opioid cure
+adverse: notes:@suboxone~Opioid antagonist
+uses: sublingual, opioid cure / management ( safer than methadone but must be in withdrawal)
+adverse: notes:
+buprenorphine + naloxone@benzocaine~local anesthetic
+uses:
+adverse:
+notes:@lidocaine~local anesthetic
+uses:
+adverse:
+notes:@bupivacaine~local anesthetic
+uses:
+adverse:
+notes:@gabapentin~other analgesic
+uses:
+adverse:
+notes:@pregabalin~other analgesic
+uses:
+adverse:
+notes:@amitriptyline~other analgesic
+uses:
+adverse:
+notes:@Mg (OH)2, Al (OH)3, CaCO3~antacids
+uses:
+adverse:
+may reduce gi absorption| Al(OH)3: constipation| Mg(OH)2: diarrhea| notes:@sucralfate~Muscosal Defenses, Protectant
+uses: forms thick barrier over ulcer
+adverse: constipation
+notes:@bismuth subsalicylate~Muscosal Defenses, Protectant
+uses: forms barrier over mucosa, bateriostatic, antisecretory, antiinflammatory
+adverse: black tongue / feces
+notes: (Pepto-Bismol)@misoprostol~Muscosal Defenses, enhancer
+uses: 
+adverse:
+diarrhea, cramps, *contraction of the uterus * notes:@cimetidine~Histamine (H2) receptor Antagonist
+uses: 
+adverse:
+inhibits CYPS, gynecomastia, erectile dysfunction, reduced libido notes:@ranitidine~Histamine (H2) receptor Antagonist
+uses: 
+adverse:
+few adverse effects notes:@famotidine~Histamine (H2) receptor Antagonist
+uses: 
+adverse:
+notes:@nizatidine~Histamine (H2) receptor Antagonist
+uses: 
+adverse:
+notes:@esomeprazole~Proton Pump Inhibitor
+uses: reduce stomach acid - inhibit the gastric H+ / K+ ATPase pump
+adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi infect, decrease b12 and iron
+notes:@pantoprazole~Proton Pump Inhibitor
+uses: reduce stomach acid - inhibit the gastric H+ / K+ ATPase pump
+adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi infect, decrease b12 and iron
+notes:@rabeprazole~Proton Pump Inhibitor
+uses: reduce stomach acid - inhibit the gastric H+ / K+ ATPase pump
+adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi infect, decrease b12 and iron
+notes:@dexlansoprazole~Proton Pump Inhibitor
+uses: reduce stomach acid - inhibit the gastric H+ / K+ ATPase pump
+adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi infect, decrease b12 and iron
+notes:@H Pylori Quadruple Therapy w/o bismuth~uses:
+PPI (esomeprazole), Antibiotic (amoxicillin), Antibiotic (clarithromycin), Antibiotic (metronidazole) adverse:
+7-14 days notes:@H Pylori Quadruple Therapy w. bismuth~uses:
+PPI, Tetracycline, Bismuth salts, Metronidazole adverse:
+7-14 days notes:@bisacodyl~Laxative, stimulant
+uses: 
+adverse:
+notes:@sennosides~Laxative, stimulant
+uses: 
+adverse:
+notes:@psyllium~Laxative, bulk-forming
+uses: 
+adverse:
+notes:@inulin~Laxative, bulk-forming
+uses: 
+adverse:
+notes:@docusate~Laxative, surfactant
+uses: 
+adverse:
+notes:@lactulose~Laxative, osmotic
+uses: 
+adverse:
+notes:@polyethylene glycol (PEG)~Laxative, osmotic
+uses: 
+adverse:
+notes:@Mg(OH)2~Laxative, osmotic
+uses: 
+adverse:
+notes:@mineral oil~Laxative, lubrification (coat the intestinal lining)
+uses: 
+adverse:
+notes:@methylnaltrexone~Laxative, anti-opioid
+uses: 
+adverse:
+notes:@naloxegol~Laxative, anti-opioid
+uses: 
+adverse:
+notes:@diphenoxylate + atropine~antidiarrheal
+uses: 
+adverse:
+notes:@Al salts~antidiarrhea
+uses: 
+adverse:
+notes:@
