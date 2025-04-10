@@ -432,38 +432,38 @@ anti hist musc adren effects, dec libido
 notes:@fluoxetine (Prozac)~Antidepressant, SSRI
 
 uses: 
-adverse:
+adverse: anorexia, insomnia, sexual dysfunction, anxiety
 notes:@citalopram (Celexa)~Antidepressant, SSRI
 
 uses: 
-adverse:
+adverse: anorexia, insomnia, sexual dysfunction, anxiety
 notes:@escitalopram (Cipralex)~Antidepressant, SSRI
 
 uses: 
-adverse:
+adverse: anorexia, insomnia, sexual dysfunction, anxiety
 notes:@paroxetine (Paxil)~Antidepressant, SSRI
 
 uses: 
-adverse:
+adverse: anorexia, insomnia, sexual dysfunction, anxiety
 notes:@sertraline (Zoloft)~Antidepressant, SSRI
 
 uses: 
-adverse:
+adverse: anorexia, insomnia, sexual dysfunction, anxiety
 notes:@venlafaxine (Effexor)~Antidepressant, SNRI
 
 uses: 
-adverse:
+adverse: nausea, anorexia, agitation, problems with ejaculation, anorgarsmia
 notes:@duloxetine (Cymbalta)~Antidepressant, SNRI
 
 uses:
-adverse:
+adverse: nausea, anorexia, agitation, problems with ejaculation, anorgarsmia
 notes:@desvenlafaxine (Pristiq)~Antidepressant, SNRI
 
 uses:
-adverse:
+adverse: nausea, anorexia, agitation, problems with ejaculation, anorgarsmia
 notes:@Buproprion (Wellbutrin)~Antidepressant, NDRI
 
-uses:
+uses: antidepressant and quitting smoking
 adverse: headache, tachycardia, tremors, agitation, suppres appetite, sleep disruption, dry mouth
 notes:@Lithium~Bipolar
 
