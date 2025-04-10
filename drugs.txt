@@ -124,7 +124,7 @@ adverse: increase hr, retention of Na/h2o (combined with beta blockers and diure
 
 uses: hypertension (emergencies)
 adverse: increase hr, retention of Na/h2o (combined with beta blockers and diuretics)
-@sodium nitroprusside~Vasoldilator (mixed venous/arterial)
+@sodium nitroprusside~Vasodilator (mixed venous/arterial)
 
 uses: hypertension (emergencies)
 adverse: orthostatic hypotension, cyanide poisoning
@@ -144,7 +144,7 @@ adverse: orthostatic hypotension, dizziness, reflex tachycardia, Na/H2O retentio
 
 uses: refractory hypertension, anxiolytic
 adverse: sedation, dry mouth, depression, orthostatic hypotension
-@alpha-methyldopa~Vasodilators (Alpha 2 Agonist)
+@alpha-methyldopa~Vasodilator (Alpha 2 Agonist)
 
 uses: hypertension (pregnancy)
 adverse: sedation, dry mouth, orthostatic hypotension
