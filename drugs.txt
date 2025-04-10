@@ -494,10 +494,9 @@ notes:@olanzapine~Antipsychotic, atypical
 uses:
 adverse:
 notes:@aripiprazole (Abilify)~Antipsychotic, atypical
-
-uses:
-adverse:
-notes:@acetylsalicylic acid (aspirin)~Antiplatlet agreggation, NSAID, antipyretic, analgesic
+notes: partial dopamine agonist (blocks receptor and gives a bit of stimulus)
+less sedative, weight gain, metabolic effects
+but increases gambling and hypersexuality behaviour@acetylsalicylic acid (aspirin)~Antiplatlet agreggation, NSAID, antipyretic, analgesic
 
 uses: low dose (81mg/d) prevent thrombosis, high dose (650mg q6h) analgesic
 adverse: 
