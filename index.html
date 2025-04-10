@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Drug Quiz</title>
@@ -12,6 +12,16 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+
+    #drugSelector {
+      margin-bottom: 30px;
+      padding: 10px;
+      font-size: 1.05em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 100%;
+      max-width: 900px;
     }
 
     .quiz-container {
@@ -71,16 +81,6 @@
       background-color: lightcoral !important;
     }
 
-    #drugSelector {
-      margin-bottom: 30px;
-      padding: 10px;
-      font-size: 1.05em;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      width: 100%;
-      max-width: 900px;
-    }
-
     #missed {
       width: 100%;
       max-width: 900px;
@@ -92,8 +92,10 @@
       font-size: 1.05em;
     }
 
-    #missed h2 {
-      margin-top: 0;
+    #missed label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 16px;
     }
 
     #missedList {
@@ -126,9 +128,9 @@
     <div class="quiz-left" id="drugName">Loading...</div>
     <div class="quiz-right options-container" id="options"></div>
   </div>
-  
+
   <div id="missed">
-    Missed Drugs </br>
+    <label>Missed Drugs</label>
     <div id="missedList"></div>
   </div>
 
