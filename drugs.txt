@@ -499,8 +499,9 @@ less sedative, weight gain, metabolic effects
 but increases gambling and hypersexuality behaviour@acetylsalicylic acid (aspirin)~Antiplatlet agreggation, NSAID, antipyretic, analgesic
 
 uses: low dose (81mg/d) prevent thrombosis, high dose (650mg q6h) analgesic
-adverse: 
-notes:@clopidogrel~ADP receptor agonist
+
+prolonged bleeding time, gi irrit, gastric ulcer– renal insuf– inc Na/h2o reten, inc preload, worse hf, inc blood pressure, aspirin-exacerbated respiratory disease (asthma, nasal polyps, hypersensitivity)
+od: tinnitus, metabol acidosis (w. comp), *Reye's syndrome@clopidogrel~ADP receptor agonist
 
 uses: decrease platelet agreggation, prevent thrombus formation
 adverse: bleeding, agranulocytosis
