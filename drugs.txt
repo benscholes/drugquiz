@@ -857,55 +857,16 @@ adverse: tolerated well, head ache, diarrhea, longterm: osteoporosis, cdff / gi 
 notes:@H Pylori Quadruple Therapy w/o bismuth~PPI (esomeprazole), Antibiotic (amoxicillin), Antibiotic (clarithromycin), Antibiotic (metronidazole) adverse:
 7-14 days notes:@H Pylori Quadruple Therapy w. bismuth~PPI, Tetracycline, Bismuth salts, Metronidazole adverse:
 7-14 days notes:@bisacodyl~Laxative, stimulant
-
-uses: 
-adverse:
 notes:@sennosides~Laxative, stimulant
-
-uses: 
-adverse:
 notes:@psyllium~Laxative, bulk-forming
-
-uses: 
-adverse:
 notes:@inulin~Laxative, bulk-forming
-
-uses: 
-adverse:
 notes:@docusate~Laxative, surfactant
-
-uses: 
-adverse:
 notes:@lactulose~Laxative, osmotic
-
-uses: 
-adverse:
 notes:@polyethylene glycol (PEG)~Laxative, osmotic
-
-uses: 
-adverse:
 notes:@Mg(OH)2~Laxative, osmotic
-
-uses: 
-adverse:
 notes:@mineral oil~Laxative, lubrification (coat the intestinal lining)
-
-uses: 
-adverse:
 notes:@methylnaltrexone~Laxative, anti-opioid
-
-uses: 
-adverse:
 notes:@naloxegol~Laxative, anti-opioid
-
-uses: 
-adverse:
 notes:@diphenoxylate + atropine~antidiarrheal
-
-uses: 
-adverse:
 notes:@Al salts~antidiarrhea
-
-uses: 
-adverse:
 notes:@
