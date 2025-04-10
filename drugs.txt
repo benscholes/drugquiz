@@ -1,7 +1,7 @@
 nitroglycerin~nitrate
 
 uses: angina, heart failure, hypertension (acute)
-adverse: ortho hypotension, headache, reflex tachycardia, tachyphylaxis (tolerance)d
+adverse: ortho hypotension, headache, reflex tachycardia, tachyphylaxis (tolerance)
 notes: many routes, tmax 30s@isosorbide mononitrate~nitrate
 
 uses: angina, heart failure, hypertension (acute)
