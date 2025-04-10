@@ -784,17 +784,16 @@ adverse:
 notes:
 buprenorphine + naloxone@benzocaine~local anesthetic
 
-uses:
-adverse:
-notes:@lidocaine~local anesthetic
+uses: topical
+adverse: can increase methemoglobin
+notes: blocks voltage gated ion channels on axons@lidocaine~local anesthetic
 
-uses:
+uses: 
 adverse:
 notes:@bupivacaine~local anesthetic
 
-uses:
-adverse:
-notes:@gabapentin~other analgesic
+uses: 
+notes: blocks voltage gated ion channels on axons@gabapentin~other analgesic
 
 uses: neuropathic pain
 adverse: drowsiness, dizziness, ataxia
