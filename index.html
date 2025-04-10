@@ -20,7 +20,7 @@
 
     .quiz-container {
       display: flex;
-      align-items: flex-start;
+      align-items: center; /* ← vertical centering */
       justify-content: center;
       gap: 40px;
       margin-bottom: 40px;
@@ -58,6 +58,10 @@
 
     .correct {
       background-color: lightgreen !important;
+    }
+
+    .incorrect {
+      background-color: lightcoral !important;
     }
 
     #missed {
@@ -143,8 +147,9 @@
         button.classList.add('correct');
         setTimeout(() => {
           nextQuestion();
-        }, 500);
+        }, 1000);
       } else {
+        button.classList.add('incorrect');
         missedDrugs.add(currentDrug.name);
         updateMissed();
       }
