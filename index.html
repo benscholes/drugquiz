@@ -5,7 +5,7 @@
   <title>Drug Quiz</title>
   <style>
     body { font-family: sans-serif; margin: 40px; }
-    .button { padding: 10px 20px; margin: 10px; cursor: pointer; border: 1px solid #ccc; border-radius: 5px; }
+    .button { padding: 10px 20px; margin: 10px; cursor: pointer; border: 1px solid #ccc; border-radius: 5px; white-space: pre-line; }
     .button:hover { background: #f0f0f0; }
     .correct { background-color: lightgreen !important; }
     #missed { margin-top: 30px; }
@@ -28,32 +28,34 @@
     let currentDrug = null;
     let missedDrugs = new Set();
 
-    async function loadCSV() {
-      const response = await fetch('drugs.csv');
+    async function loadTXT() {
+      const response = await fetch('drugs.txt');
       const text = await response.text();
-      const rows = text.trim().split('\n').slice(1); // Skip header
-      drugs = rows.map(row => {
-        const [name, info] = row.split(/,(.+)/); // Handles commas in info
-        return { name: name.trim(), info: info.trim() };
-      });
+
+      const entries = text
+        .split('@') // split on end marker
+        .map(entry => entry.trim())
+        .filter(entry => entry.includes('~')) // ignore empty or malformed
+        .map(entry => {
+          const [name, info] = entry.split('~');
+          return { name: name.trim(), info: info.trim() };
+        });
+
+      drugs = entries;
       nextQuestion();
     }
 
     function nextQuestion() {
-      // Pick a drug
       currentDrug = drugs[Math.floor(Math.random() * drugs.length)];
 
-      // Pick 3 wrong options
       const wrongOptions = drugs
         .filter(d => d.name !== currentDrug.name)
         .sort(() => 0.5 - Math.random())
         .slice(0, 3)
         .map(d => d.info);
 
-      // Mix correct with wrong
       const allOptions = [...wrongOptions, currentDrug.info].sort(() => 0.5 - Math.random());
 
-      // Render
       document.getElementById('drugName').textContent = currentDrug.name;
       const optionsDiv = document.getElementById('options');
       optionsDiv.innerHTML = '';
@@ -89,7 +91,7 @@
       });
     }
 
-    loadCSV();
+    loadTXT();
   </script>
 </body>
 </html>
