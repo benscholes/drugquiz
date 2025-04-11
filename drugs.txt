@@ -242,25 +242,25 @@ uses: topical
 @vancomycin~Antibiotic, cell wall inhibitor, non betalactam
 
 uses: C diff, MRSA
-@clarithromycin~Antibiotic , protien synthesis inhibitor (50s) , macrolide
+@clarithromycin~Antibiotic , protein synthesis inhibitor (50s) , macrolide
 
-@azithromycin~Antibiotic , protien synthesis inhibitor (50s)
+@azithromycin~Antibiotic , protein synthesis inhibitor (50s)
 
-@clindamycin~Antibiotic , protien synthesis inhibitor (50s)
+@clindamycin~Antibiotic , protein synthesis inhibitor (50s)
 
-@linezolid~Antibiotic , protien synthesis inhibitor (50s)
+@linezolid~Antibiotic , protein synthesis inhibitor (50s)
 
-@chloramphenicol~Antibiotic , protien synthesis inhibitor (50s)
+@chloramphenicol~Antibiotic , protein synthesis inhibitor (50s)
 
-@gentamycin~Antibiotic , protien synthesis inhibitor (30s)
+@gentamycin~Antibiotic , protein synthesis inhibitor (30s)
 
-@tobramycin~Antibiotic , protien synthesis inhibitor (50s)
+@tobramycin~Antibiotic , protein synthesis inhibitor (50s)
 
-@tetracycline~Antibiotic , protien synthesis inhibitor (50s)
+@tetracycline~Antibiotic , protein synthesis inhibitor (50s)
 
-@doxycycline~Antibiotic , protien synthesis inhibitor (50s)
+@doxycycline~Antibiotic , protein synthesis inhibitor (50s)
 
-@minocycline~Antibiotic , protien synthesis inhibitor (50s)
+@minocycline~Antibiotic , protein synthesis inhibitor (50s)
 
 @ciprofloxacin~Antibiotic , DNA synthesis inhibitor , fluoroquinolone
 
@@ -349,32 +349,32 @@ adverse: hypertension, with merepidine malignant hyper therm
 
 @selegiline~Antidepressant / Parkinsons, MAOb inhibitor (irreversible)
 
-@amitriptyline~Tricyclic Antidepressants, other analgesic
+@amitriptyline~Tricyclic Antidepressant, other analgesic
 
 uses: antidepressant, neuropathic pain
 adverse: narrow therapeutic index, 
 anti hist musc adren effects, dec libido
-@imipramine~Tricyclic Antidepressants
+@imipramine~Tricyclic Antidepressant
 
 adverse: narrow therapeutic index, 
 anti hist musc adren effects, dec libido
-@fluoxetine (Prozac)~Antidepressant, SSRI
+@fluoxetine~Antidepressant, SSRI
 
-@citalopram (Celexa)~Antidepressant, SSRI
+@citalopram~Antidepressant, SSRI
 
-@escitalopram (Cipralex)~Antidepressant, SSRI
+@escitalopram~Antidepressant, SSRI
 
-@paroxetine (Paxil)~Antidepressant, SSRI
+@paroxetine~Antidepressant, SSRI
 
-@sertraline (Zoloft)~Antidepressant, SSRI
+@sertraline~Antidepressant, SSRI
 
-@venlafaxine (Effexor)~Antidepressant, SNRI
+@venlafaxine~Antidepressant, SNRI
 
-@duloxetine (Cymbalta)~Antidepressant, SNRI
+@duloxetine~Antidepressant, SNRI
 
-@desvenlafaxine (Pristiq)~Antidepressant, SNRI
+@desvenlafaxine~Antidepressant, SNRI
 
-@Buproprion (Wellbutrin)~Antidepressant, NDRI
+@Buproprion~Antidepressant, NDRI
 
 adverse: headache, tachycardia, tremors, agitation, suppres appetite, sleep disruption, dry mouth
 @Lithium~Bipolar
@@ -415,15 +415,12 @@ adverse: bleeding
 @heparin (ufh)~Anticoagulant, iv/subq
 
 notes: monitor with aPTT@dalteparin~Anticoagulant, subq
-
+low molecular weight heparin
 @enoxaparin~Anticoagulant, subq
-
+low molecular weight heparin
 @fondaparinux~Anticoagulant, subq; indirect Xa inhibitor
-
 @apixaban~Anticoagulant, po; direct Xa inhibitor
-
 @rivaroxaban~Anticoagulant, po; direct Xa inhibitor
-
 @warfarin~Anticoagulant, po; vit K antagonist
 
 bleeding, bruising, teratogen, rat poison notes:
