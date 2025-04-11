@@ -14,14 +14,28 @@
       align-items: center;
     }
 
-    #drugSelector {
+    .top-controls {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      align-items: center;
       margin-bottom: 20px;
+      gap: 20px;
+    }
+
+    #drugSelector {
+      flex: 2;
       padding: 10px;
       font-size: 1em;
       border-radius: 5px;
       border: 1px solid #ccc;
-      width: 100%;
-      max-width: 900px;
+    }
+
+    #reverseMode {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
     .quiz-container {
@@ -35,8 +49,9 @@
 
     #drugName {
       text-align: center;
-      padding-top: 10px;
-      padding-bottom: 20px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      font-size: 2em;
     }
 
     .options-container {
@@ -53,6 +68,8 @@
       background-color: white;
       transition: background-color 0.3s;
       text-align: left;
+      font-size: 1.2em;
+      padding: 6px;
     }
 
     .button:hover {
@@ -74,12 +91,14 @@
       padding: 20px;
       opacity: 0.5;
       box-sizing: border-box;
+      font-size: 1em;
     }
 
     #missed label {
       font-weight: bold;
       display: block;
       margin-bottom: 16px;
+      font-size: 1.1em;
     }
 
     #missedList {
@@ -98,6 +117,8 @@
       border-radius: 4px;
       background-color: #ddd;
       cursor: pointer;
+      font-size: 1em;
+      padding: 8px 14px;
     }
 
     .missed-btn:hover {
@@ -123,43 +144,25 @@
     .missed-btn-wrapper:hover .delete-x {
       display: block;
     }
-
-
-      #drugName {
-        font-size: 1.5em;
-      }
-    
-      .button {
-        font-size: 1.2em;
-        padding: 6px;
-      }
-    
-      .missed-btn {
-        font-size: 1em;
-        padding: 8px 14px;
-      }
-    
-      #missed {
-        font-size: 1em;
-      }
-    
-      #missed label {
-        font-size: 1.1em;
-      }
-    
   </style>
 </head>
 <body>
 
-  <select id="drugSelector">
-    <option disabled selected>Select a drug...</option>
-  </select>
+  <div class="top-controls">
+    <select id="drugSelector">
+      <option disabled selected>Select a drug...</option>
+    </select>
+    <div id="reverseMode">
+      <input type="checkbox" id="reverseCheckbox">
+      <label for="reverseCheckbox">Reverse</label>
+    </div>
+  </div>
 
   <div class="quiz-container">
     <div id="drugName">Loading...</div>
     <div class="options-container" id="options"></div>
   </div>
-</br></br>
+
   <div id="missed">
     <label>mistakes</label>
     <div id="missedList"></div>
@@ -189,37 +192,71 @@
     }
 
     function nextQuestion(specificDrug = null) {
-      currentDrug = specificDrug || drugs[Math.floor(Math.random() * drugs.length)];
+      const reverse = document.getElementById('reverseCheckbox').checked;
+      const selectedDrug = specificDrug || drugs[Math.floor(Math.random() * drugs.length)];
+      currentDrug = selectedDrug;
 
-      const correctInfo = currentDrug.info;
-      const uniqueInfoSet = new Set(
-        drugs
-          .filter(d => d.info !== correctInfo)
-          .map(d => d.info)
-      );
-      const uniqueInfoArray = Array.from(uniqueInfoSet).sort(() => 0.5 - Math.random());
-      const wrongOptions = uniqueInfoArray.slice(0, 3);
-      const allOptions = [...wrongOptions, correctInfo].sort(() => 0.5 - Math.random());
-
-      document.getElementById('drugName').textContent = currentDrug.name;
       const optionsDiv = document.getElementById('options');
       optionsDiv.innerHTML = '';
-      allOptions.forEach(info => {
-        const btn = document.createElement('button');
-        btn.textContent = info;
-        btn.className = 'button';
-        btn.onclick = () => handleAnswer(info, btn);
-        optionsDiv.appendChild(btn);
-      });
+
+      if (reverse) {
+        const correctName = selectedDrug.name;
+        const uniqueNameSet = new Set(
+          drugs
+            .filter(d => d.name !== correctName)
+            .map(d => d.name)
+        );
+        const uniqueNameArray = Array.from(uniqueNameSet).sort(() => 0.5 - Math.random());
+        const wrongOptions = uniqueNameArray.slice(0, 5);
+        const allOptions = [...wrongOptions, correctName].sort(() => 0.5 - Math.random());
+
+        document.getElementById('drugName').textContent = selectedDrug.info;
+        allOptions.forEach(name => {
+          const btn = document.createElement('button');
+          btn.textContent = name;
+          btn.className = 'button';
+          btn.onclick = () => handleAnswerReverse(name, btn);
+          optionsDiv.appendChild(btn);
+        });
+      } else {
+        const correctInfo = selectedDrug.info;
+        const uniqueInfoSet = new Set(
+          drugs
+            .filter(d => d.info !== correctInfo)
+            .map(d => d.info)
+        );
+        const uniqueInfoArray = Array.from(uniqueInfoSet).sort(() => 0.5 - Math.random());
+        const wrongOptions = uniqueInfoArray.slice(0, 3);
+        const allOptions = [...wrongOptions, correctInfo].sort(() => 0.5 - Math.random());
+
+        document.getElementById('drugName').textContent = selectedDrug.name;
+        allOptions.forEach(info => {
+          const btn = document.createElement('button');
+          btn.textContent = info;
+          btn.className = 'button';
+          btn.onclick = () => handleAnswer(info, btn);
+          optionsDiv.appendChild(btn);
+        });
+      }
     }
 
     function handleAnswer(selectedInfo, button) {
       const isCorrect = selectedInfo === currentDrug.info;
       if (isCorrect) {
         button.classList.add('correct');
-        setTimeout(() => {
-          nextQuestion();
-        }, 250);
+        setTimeout(() => nextQuestion(), 250);
+      } else {
+        button.classList.add('incorrect');
+        missedDrugs.add(currentDrug.name);
+        updateMissed();
+      }
+    }
+
+    function handleAnswerReverse(selectedName, button) {
+      const isCorrect = selectedName === currentDrug.name;
+      if (isCorrect) {
+        button.classList.add('correct');
+        setTimeout(() => nextQuestion(), 250);
       } else {
         button.classList.add('incorrect');
         missedDrugs.add(currentDrug.name);
@@ -244,7 +281,7 @@
 
         const x = document.createElement('button');
         x.className = 'delete-x';
-        x.textContent = '×';
+        x.textContent = '\u00d7';
         x.onclick = (e) => {
           e.stopPropagation();
           missedDrugs.delete(drugName);
