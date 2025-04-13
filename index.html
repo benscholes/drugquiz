@@ -208,7 +208,7 @@
             .map(d => d.name)
         );
         const uniqueNameArray = Array.from(uniqueNameSet).sort(() => 0.5 - Math.random());
-        const wrongOptions = uniqueNameArray.slice(0, 5);
+        const wrongOptions = uniqueNameArray.slice(0, 9);
         const allOptions = [...wrongOptions, correctName].sort(() => 0.5 - Math.random());
 
         document.getElementById('drugName').textContent = selectedDrug.info;
