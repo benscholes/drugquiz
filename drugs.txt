@@ -244,18 +244,30 @@ uses: topical
 uses: C diff, MRSA
 @clarithromycin~Antibiotic , protein synthesis inhibitor (50s) , macrolide
 
-@azithromycin~Antibiotic , protein synthesis inhibitor (50s)
+especially useful versus Gram + bacteria
+penicillin substitute
+inhibits hepatic enzymes
+@azithromycin~Antibiotic , protein synthesis inhibitor (50s) , macrolide
 
+especially useful versus Gram + bacteria; chlamydia / gonorrhea
+penicillin substitute
+inhibits hepatic enzymes
 @clindamycin~Antibiotic , protein synthesis inhibitor (50s)
 
 @linezolid~Antibiotic , protein synthesis inhibitor (50s)
 
 @chloramphenicol~Antibiotic , protein synthesis inhibitor (50s)
 
-@gentamycin~Antibiotic , protein synthesis inhibitor (30s)
+@gentamycin~Antibiotic , protein synthesis inhibitor (30s), aminoglycoside
 
-@tobramycin~Antibiotic , protein synthesis inhibitor (50s)
+useful versus Gram – aerobic bacilli
+charged (poor po, iv/im admin)
+major adverse effects: nephrotoxicity and ototoxicity
+@tobramycin~Antibiotic , protein synthesis inhibitor (30s), aminoglycoside
 
+useful versus Gram – aerobic bacilli
+charged (poor po, iv/im admin)
+major adverse effects: nephrotoxicity and ototoxicity
 @tetracycline~Antibiotic , protein synthesis inhibitor (50s)
 
 @doxycycline~Antibiotic , protein synthesis inhibitor (50s)
